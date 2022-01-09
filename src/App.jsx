@@ -58,8 +58,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className="title"><h1>Calculator with React.js</h1></div>
       <div className="calculator-grid">
-
+        
         <div className="output">
           <div className="previous-operand">{currentOperation ? number1 + currentOperation + number2 : ""}</div>
           <div className="current-operand"> {result ? result :(!currentOperation ? number1 : number2)}</div>
